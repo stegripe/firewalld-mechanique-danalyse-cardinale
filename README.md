@@ -20,7 +20,7 @@ pnpm install
 # or npm
 npm install
 ```
-1. Run the bot
+5. Run the bot
 ```bash
 npm start
 ```
@@ -31,7 +31,7 @@ npm start
 ```bash
 nix-shell -A install
 ```
-1. Run the bot
+3. Run the bot
 ```bash
 nix-shell -A run
 ```
