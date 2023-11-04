@@ -1,22 +1,21 @@
 {
   "name": "firewalld-mechanique-danalyse-cardinale",
   "version": "1.0.0",
-  "description": "With FirewallD Mechanique D'Analyse Cardinale you can manage your FirewallD's configuration easily from Discord bot.",
-  "main": "src/index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node --env-file=.env src/index.js",
-    "lint": "eslint ."
-  },
+  "description": "Manage your FirewallD's configuration easily from Discord bot.",
   "license": "AGPL-3.0",
   "author": "Clytage <admin@clytage.org>",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node --env-file=.env src/index.js"
+  },
   "eslintConfig": {
-    "extends": "@clytage/eslint-config/node",
     "parserOptions": {
       "sourceType": "module"
-    }
+    },
+    "extends": "@clytage/eslint-config/node"
   },
-  "packageManager": "pnpm@8.10.2",
   "dependencies": {
     "@sapphire/lexure": "^1.1.5",
     "@sapphire/result": "^2.6.4",
@@ -29,5 +28,6 @@
   "devDependencies": {
     "@clytage/eslint-config": "^3.0.1",
     "eslint": "^8.53.0"
-  }
+  },
+  "packageManager": "pnpm@8.10.2"
 }
